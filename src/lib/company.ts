@@ -3,7 +3,7 @@ export const COMPANY = {
   slogan: "Промислові гази та устаткування",
   city: "Харків",
   /** Геометка біля міста в шапці: вивіска на Лікарському в'їзді */
-  cityMapQuery: "Лікарський в'їзд, 3, Харків, Харківська область, 61000",
+  cityMapQuery: "Кріотехніка, Лікарський в'їзд, 3, Харків",
   email: "zvariuvalnigazy@gmail.com",
   telegramUrl: process.env.NEXT_PUBLIC_TELEGRAM_URL || "https://t.me/+380996883904",
 
@@ -32,7 +32,7 @@ export const COMPANY = {
     {
       title: "Адреса провадження діяльності",
       address: "місто Харків, Лікарський в'їзд, 3",
-      mapQuery: "Лікарський в'їзд, 3, Харків, Харківська область, 61000",
+      mapQuery: "Кріотехніка, Лікарський в'їзд, 3, Харків",
     },
     {
       title: "Адреса провадження діяльності",
@@ -59,5 +59,5 @@ export const mapEmbed = (query: string) =>
   `https://www.google.com/maps?q=${encodeURIComponent(query)}&hl=uk&z=16&output=embed`;
 
 export const MAPS_URL = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-  "Лікарський в'їзд, 3, Харків, Харківська область, 61000",
+  "Кріотехніка, Лікарський в'їзд, 3, Харків",
 )}`;
