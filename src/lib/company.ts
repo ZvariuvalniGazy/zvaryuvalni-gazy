@@ -14,7 +14,7 @@ export const COMPANY = {
     country: "Україна",
     postcode: "61000",
     city: "місто Харків",
-    street: "провулок Ігоря Остаповича, 3",
+    street: "Лікарський в'їзд, 3",
   },
 
   hours: [
@@ -31,13 +31,13 @@ export const COMPANY = {
     },
     {
       title: "Адреса провадження діяльності",
-      address: "місто Харків, провулок Ігоря Остаповича, 3",
-      mapQuery: "провулок Ігоря Остаповича, 3, Харків, Харківська область, 61000",
+      address: "місто Харків, Лікарський в'їзд, 3",
+      mapQuery: "Лікарський в'їзд, 3, Харків, Харківська область, 61000",
     },
     {
       title: "Адреса провадження діяльності",
-      address: "місто Харків, вулиця Китаєнка, 1",
-      mapQuery: "Харків, вулиця Китаєнка, 1",
+      address: "місто Харків (точка на карті)",
+      mapQuery: "49.9536729,36.1733738",
     },
   ],
 
@@ -59,5 +59,5 @@ export const mapEmbed = (query: string) =>
   `https://www.google.com/maps?q=${encodeURIComponent(query)}&hl=uk&z=16&output=embed`;
 
 export const MAPS_URL = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-  "провулок Ігоря Остаповича, 3, Харків, Харківська область, 61000",
+  "Лікарський в'їзд, 3, Харків, Харківська область, 61000",
 )}`;

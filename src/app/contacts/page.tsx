@@ -5,7 +5,7 @@ import { ClockIcon, MailIcon, PinIcon, UserIcon } from "@/components/icons";
 
 export const metadata: Metadata = {
   title: "Контакти",
-  description: "Адреса, телефони та керівництво кооперативу «Зварювальні Гази», м. Харків, провулок Ігоря Остаповича, 3.",
+  description: "Адреса, телефони та керівництво кооперативу «Зварювальні Гази», м. Харків, Лікарський в'їзд, 3.",
 };
 
 const cardTitle = "mb-3 flex items-center gap-2.5 text-lg font-extrabold";
